@@ -1,0 +1,7 @@
+{
+  "name": "",
+  "version": "",
+  "devDependencies": {
+    "browser-sync": "^2.23.5"
+  }
+}
