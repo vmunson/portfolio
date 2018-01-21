@@ -1,5 +1,11 @@
 /* General CSS stuff goes here. */
 
 body {
-    background-color: firebrick;
+    background-color: rgb(170, 159, 159);
+}
+.portfolio{
+    background-color: lightblue;
+}
+.about{
+    background-color: lightgreen;
 }

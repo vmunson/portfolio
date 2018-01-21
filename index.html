@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +11,7 @@
     <title>Document</title>
 
     <!-- Bootstrap core CSS Modules-->
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
     <!-- Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Belleza' rel='stylesheet'>
@@ -20,44 +21,164 @@
     <link href="css/main.css" rel="stylesheet" type="text/css">
 
 </head>
+
 <body>
 
     <!-- Navigation -->
     <nav>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
     </nav>
 
     <!-- Header -->
     <header>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4 text-center">Ginny Munson</h1>
+                <p class="lead text-center">Web Developer</p>
+            </div>
+        </div>
     </header>
 
     <!-- Portfolio -->
     <section>
+        <div class="container portfolio">
+            <div class="row">
+                <div class="col">
+                    <h2 class="text-center">Portfolio</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <a href="https://vmunson.github.io/CripperelliFamily/" target="_blank">
+                        <img src="./assets/img/Screen Shot 2018-01-20 at 6.03.15 PM.png">
+                    </a>
+                    <h4>Cripperelli Family</h4>
+                    <p>Static website made with strict HTML and CSS</p>
+                </div>
+                <div class="col text-center">
+                    <a href="https://codepen.io/vmunson/pen/dJdgGj" target="_blank">
+                        <img src="./assets/img/Screen Shot 2018-01-20 at 6.04.16 PM.png">
+                    </a>
+                    <h4 class="text-center">CSS Creature</h4>
+                    <p>Created otters with HTML and CSS</p>
+                </div>
+                <div class="col text-center">
+                    <a href="#" target="_blank">
+                        <img src="./assets/img/Screen Shot 2018-01-20 at 6.05.16 PM.png">
+                    </a>
+                    <h4 class="text-center">AJAX Challenge</h4>
+                    <p>Created a trivia game using an open API</p>
+                </div>
+                <div class="col text-center">
+                    <a href="https://github.com/vmunson/JavaScipt-Lib" target="_blank">
+                        <img src="./assets/img/Screen Shot 2018-01-20 at 6.06.33 PM.png">
+                    </a>
+                    <h4 class="text-center">JavaScript Library</h4>
+                    <p>Created a library of JavaScript Fundamentals</p>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- About -->
     <section>
+        <div class="container about">
+            <div class="row">
+                <div class="col text-center">
+                    <h2>About Me</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In earum veniam laudantium doloribus ex nam
+                        hic commodi cumque sapiente incidunt nihil quos similique, a numquam officia eveniet laboriosam ad
+                        sit!
+                    </p>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Contact -->
     <section>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col ">
+                    <h2>Contact Me</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                <form>
+                    <div class="control-group">
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input class="form-control" id="name" type="text" placeholder="Name">
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group">
+                            <label>Email Address</label>
+                            <input class="form-control" id="email" type="email" placeholder="Email Address">
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </div>
+                </form>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Footer -->
     <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <a href="https://www.linkedin.com/in/ginny-munson-38bb2b126/" target="_blank"><img src="./assets/img/Linkedin-Download-PNG.png" alt="LinkedIn"></a>
+                    <a href="https://github.com/vmunson/"><img src="./assets/img/GitHub-Mark-Light-32px.png" alt="GitHub"></a>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <!-- Copyright -->
 
-    <!-- Modals --> 
+    <!-- Modals -->
 
     <!-- Scripts -->
 
     <!-- Bootstrap -->
-
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
     <!-- jQuery -->
 
     <!-- Custom scripts for this template -->
     <script src="js/main.js"></script>
 
 </body>
+
 </html>
