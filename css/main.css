@@ -1,11 +1,16 @@
-/* General CSS stuff goes here. */
+.nav {
+  background-color: black; }
 
-body {
-    background-color: rgb(170, 159, 159);
-}
-.portfolio{
-    background-color: lightblue;
-}
-.about{
-    background-color: lightgreen;
-}
+.nav-link {
+  color: #1bddf7; }
+
+.nav-link:hover {
+  background-color: #363636;
+  color: #16e54e; }
+
+.jumbotron {
+  background-image: url("https://i.imgur.com/VuL51CL.jpg");
+  background-size: 300px;
+  background-repeat: no-repeat;
+  color: aliceblue;
+  background-color: gray; }

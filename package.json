@@ -2,11 +2,21 @@
   "name": "",
   "version": "",
   "devDependencies": {
-    "browser-sync": "^2.23.5"
+    "browser-sync": "^2.23.5",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-filter": "^5.1.0",
+    "gulp-header": "^1.8.9",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^5.0.0"
   },
   "dependencies": {
-    "bootstrap": "^4.0.0",
+    "animate.css": "^3.5.2",
+    "bootstrap": "^3.3.7",
     "font-awesome": "^4.7.0",
-    "jquery": "^3.2.1"
+    "jquery": "^3.2.1",
+    "wowjs": "^1.1.3"
   }
 }
