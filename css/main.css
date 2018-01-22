@@ -25,7 +25,7 @@
 #portfolio {
   background-color: #333333;
   color: aliceblue;
-  padding: 80px 0; }
+  padding: 20px 0; }
 
 #portfolio .portfolio-item {
   background-size: cover;
@@ -92,6 +92,22 @@
 .about h2 {
   font-weight: 100;
   font-size: 300%;
+  color: aliceblue; }
+
+.about p {
+  color: aliceblue; }
+
+#contact {
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #333333; }
+
+#contact h3 {
+  font-size: 250%;
+  font-weight: 100;
+  color: aliceblue; }
+
+#contact label {
   color: aliceblue; }
 
 .footer {
