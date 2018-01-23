@@ -1,5 +1,5 @@
 jQuery(document).ready(function ($) {
-   alert('test')
+   
     // Initialize wowjs 
     new WOW().init();
 
