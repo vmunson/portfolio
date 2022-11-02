@@ -3,7 +3,7 @@
   "version": "",
   "devDependencies": {
     "browser-sync": "^2.23.5",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-clean-css": "^3.9.2",
     "gulp-filter": "^5.1.0",
     "gulp-header": "^1.8.9",
